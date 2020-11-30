@@ -34,7 +34,21 @@
 
     <!-- Contact -->
     <section id="contact">
-      <h4>Contact Me!</h4>
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput2">subject</label>
+          <input type="text" class="form-control" id="exampleFormControlInput2" placeholder="Type subject here">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Message Body</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Type your message here" rows="3"></textarea>
+        </div>
+        <button type="button" class="btn btn-primary" onclick="onFormSubmit(event, this)">Submit</button>
+      </form>
     </section>
 
   </aside>
