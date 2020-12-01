@@ -21,7 +21,7 @@ function createProjects() {
             title: 'Book Warm',
             desc: 'lorem',
             url: 'https://tair-bitan.github.io/book-shop/',
-            imgUrl: 'img/portfolio/02-thumbnail.jpg',
+            imgUrl: 'img/portfolio/bookshop.png',
             publishedAt: getDate(),
             labels: ['Data', 'MVC']
         },
@@ -31,7 +31,7 @@ function createProjects() {
             title: 'Im Pac-Man',
             desc: 'lorem',
             url: 'https://www.google.com/',
-            imgUrl: 'img/portfolio/03-thumbnail.jpg',
+            imgUrl: 'img/portfolio/pacman.png',
             publishedAt: getDate(),
             labels: ['Games', 'Design']
         },
@@ -41,7 +41,7 @@ function createProjects() {
             title: 'Collect Those Balls!',
             desc: 'lorem',
             url: 'https://www.google.com/',
-            imgUrl: 'img/portfolio/04-thumbnail.jpg',
+            imgUrl: 'img/portfolio/ball-game.png',
             publishedAt: getDate(),
             labels: ['Games', 'User Input']
         },
@@ -51,19 +51,19 @@ function createProjects() {
             title: 'How Fast Are You?',
             desc: 'lorem',
             url: 'https://www.google.com/',
-            imgUrl: 'img/portfolio/05-thumbnail.jpg',
+            imgUrl: 'img/portfolio/touchNums.png',
             publishedAt: getDate(),
             labels: ['Games', 'Time']
         },
         {
             id: 6,
-            name: 'To Do',
-            title: 'Todo: To Do',
+            name: 'Guess Me',
+            title: 'I Know What You Think About',
             desc: 'lorem',
             url: 'https://www.google.com/',
-            imgUrl: 'img/portfolio/06-thumbnail.jpg',
+            imgUrl: 'img/portfolio/guessMe.png',
             publishedAt: getDate(),
-            labels: ['Task Managing', 'Design']
+            labels: ['DOM', 'tree branches', 'Design']
         }
     ]
 }
