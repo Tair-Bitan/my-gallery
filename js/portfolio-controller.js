@@ -61,10 +61,9 @@ function renderModal(projId) {
 function onFormSubmit(ev, el) {
     ev.preventDefault();
     // debugger
-    var mail = $('#exampleFormControlInput1').val();
     var subject = $('#exampleFormControlInput2').val();
     var message = $('#exampleFormControlTextarea1').val();
-    var mailURL = `https://mail.google.com/mail/?view=cm&fs=1&to=${mail}&su=${subject}&body=${message}`;
+    var mailURL = `https://mail.google.com/mail/?view=cm&fs=1&to=tairbitan19@gmail.com&su=${subject}&body=${message}`;
 
     window.open(mailURL, '_blank');
 }
