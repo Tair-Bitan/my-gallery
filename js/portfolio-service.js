@@ -10,8 +10,8 @@ function createProjects() {
             name: 'MineSweeper',
             title: 'Sweep Them All',
             desc: 'lorem',
-            url: 'https://www.google.com/',
-            imgUrl: 'img/portfolio/01-thumbnail.jpg',
+            url: 'https://tair-bitan.github.io/FirstProj-Mine-Sweeper/',
+            imgUrl: 'img/portfolio/minesweeper.png',
             publishedAt: getDate(),
             labels: ['Matrixes', 'User Input']
         },
@@ -20,7 +20,7 @@ function createProjects() {
             name: 'Book Shop',
             title: 'Book Warm',
             desc: 'lorem',
-            url: 'https://www.google.com/',
+            url: 'https://tair-bitan.github.io/book-shop/',
             imgUrl: 'img/portfolio/02-thumbnail.jpg',
             publishedAt: getDate(),
             labels: ['Data', 'MVC']
